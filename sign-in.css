@@ -1,0 +1,59 @@
+*{font-family: 'Lexend Deca', sans-serif;}
+.container::before{content: ""; background-image: url("images/back-sign-up.jpg");background-size: cover;background-repeat: no-repeat;background-position: center center;width: 100%;height: 100%;position: absolute;z-index: -1;opacity:0.7;}
+.form{display: flex; align-self: center; justify-content: center; align-items: center; height: 100%; width: 100%;}
+.container{display: flex; justify-content: center; align-items: center; height: 100vh;}
+.form-container{width: 400px; border: 2px solid #d7cded; background-color: #ebe7db;}
+.form-container,.form-input{ display: flex; flex-direction: column; justify-content: center; align-items: center; border-radius: 12px; padding: 12px 0px;}
+.form-input{width: 86%;}
+.form-input .form-item{background-color: transparent; display: block; width: 100%; margin: 8px 0px; padding: 9px; text-align: center;border: none; border-bottom: 2px solid #d7cded; }
+.btn .form-btn{border: 2px solid #d7cded;color: rgb(58 46 163);background-color: rgb(213 213 213);margin: 2px 4px;padding: 9px;border-radius: 15px;font-size: 13px;font-weight: bold; margin-bottom: 10px;}  
+.btn .form-btn:hover{background-color: rgb(58 46 163); color: rgb(213 213 213);}
+
+/* Body */
+body{overflow: hidden; margin:0px;}
+.containermain p,h1,h2,h3,h4,h5,h6,a{color: white;}
+.head{display: flex; flex-direction: row; width: 100%; z-index: 1;  background-color: #000000; position: fixed; top: 0; height: auto;}
+.defimg{filter: invert(1);}
+.head img{width: 70px; height: 70px; margin: 0px 15px;}
+.brandname{width: 100%; text-align: center; color: white;}
+.brandname .lightblue{color: rgb(48 214 255); font-size: 30px;}
+.userpic{border: 1px solid black;border-radius: 55px; width: 60px;height: 60px; filter: invert(100%);}
+.setuserpic{border: 1px solid black;border-radius: 55px; width: 60px;height: 60px;}
+.containermain{height: 100vh; width: 100vw; display: flex;}
+.chaticon {justify-content: center;align-items: center;display: flex;}
+.chaticon img{filter: invert(1);width: 40px;height: 30px;}
+.friends{padding-top: 82px; width: 30%; background-color: #0192b1; height: auto; }
+.friend:hover{background-color: #19b9db;}
+.friend{align-items: center;margin: 10px 0px;display: flex;height: 50px; padding: 0px 10px;}
+.friend .usernames a{text-decoration: none;}
+.friendprofile{border: 0.5px white; border-radius: 80px; margin-right: 25px;}
+.friendprofile img{width: 40px;height: 40px;border-radius: 50px}
+.messagebox{padding-top: 60px; background-color: #ff7903; width: 70%; height: auto;}
+.sendmsg{margin-right: 20px; width: 60%; float: right; margin: 5px 10px; border-radius: 8px; background-color:  #257380;}
+.receivemsg{ width: 60%; float: left; margin: 5px 10px; border-radius: 8px; background-color: #484848;}
+.message{padding: 0px 10px 0px 10px;}
+.messagebox .friend{background-color: #b45302; width: 100%;}
+.messagebox .username{background: linear-gradient(to bottom,rgb(113 177 245) 40%,rgb(16 123 191)100%); width: 100%; height: 60px; padding: 10px 0px;}
+.containermain form{margin-left: 100px; height: 50px; display: flex; position: absolute; bottom: 0; width:60%;}
+.containermain form button{right: 107px;position: relative;width: 15%;border: none;border-radius: 12px;background-color: transparent;color: #0192b1;font-size: 32px;font-weight: bold;}
+.containermain form input[type="text"]{color: #fff; width: 100%; padding: 12px;margin: 0px 12px;border: none; font-size: 18px; border-radius: 12px;    background-color: #252525;}
+form .btn-bg:hover{background-color: #252525; color: #ff7903; padding: 0px;}
+
+#settings{background: linear-gradient(to top,rgb(28, 28, 29) 40%,rgb(8, 20, 27)100%); display: flex; flex-direction: column; align-items: center; width: 300px; height: 100vh; box-sizing: border-box; position: absolute; right: 0px; top: 0; padding-top: 82px;}
+#settings .close{align-self: flex-end;}
+/* #settings .close .fa{float: right}; */
+.setprofile{display: flex; flex-direction: column;}
+.setprofile .selectfile{color: transparent; width: 85px; }
+.setprofile input{padding: 12px;border: none; border-radius: 12px; margin-top: 12px; background: linear-gradient(to left,rgb(161 185 251)0%,rgb(206 185 255)100%);}
+.setprofile input[type="file"]{background: none; padding: 20px;}
+.setprofile input:hover{background: linear-gradient(to left,rgb(206 185 255)0%,rgb(161 185 251)100%);}
+#savedprof{width: 70%; height: 400px; position: absolute; top: 7.8em; left: 2.7em; background-color: #383838;}
+.mypics {height: 50%;display: flex;justify-content: space-around;align-items: flex-end}
+.mypics input[type='radio']{display: none;}
+.mypics input{padding: 12px;border: none; border-radius: 12px; margin-top: 12px; background: linear-gradient(to left,rgb(161 185 251)0%,rgb(206 185 255)100%);}
+.savepics img{width: 100px; height: 100px;}
+.close{float: right; padding: 0px 10px;}
+.close .fa{font-size: 30px; color: white;}
+.shhide{display: none;}
+.border{border: 2px solid black;}
+
